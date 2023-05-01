@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#rightPanel {
+    margin-left: 20px;
+}
+
+#sessionList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sessionItem {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.sessionItem span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.sessiontime{
+    color:  rgb(111, 94, 203);;
+}
+.sessionEnd{
+    color: Red;
+}
+
+#startSessionBtn{
+    background-color: rgb(170, 160, 229);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#startSessionBtn:hover{
+   cursor: pointer;
+   color: white;
+}
